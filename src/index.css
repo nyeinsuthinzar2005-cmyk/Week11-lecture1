@@ -1,0 +1,63 @@
+* {
+box-sizing: border-box;
+}
+body {
+margin: 0;
+font-family: Arial, sans-serif;
+background: #f5f7fb;
+color: #1f2937;
+}
+.page {
+width: min(1000px, 92%);
+margin: 0 auto;
+}
+.site-header {
+padding: 32px 0 20px;
+text-align: center;
+}
+.site-header h1 {
+  margin: 0;
+  font-size: 42px;
+  font-weight: 700;
+}
+
+.site-header p {
+  margin: 12px 0 0;
+  font-size: 20px;
+  font-weight: 400;
+}
+
+.card {
+  background-color: white;
+
+  border: none;
+
+  border-radius: 22px;
+
+  padding: 30px 32px;
+
+  min-height: 180px;
+
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.06);
+}
+
+.card h3 {
+  margin: 0 0 18px;
+
+  font-size: 26px;
+
+  font-weight: 700;
+
+  color: #a4b832;
+}
+.passed {
+font-weight: bold;
+}
+.failed {
+font-weight: bold;
+}
+.site-footer {
+padding: 24px 0 32px;
+text-align: center;
+font-weight: bold;
+}
